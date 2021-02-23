@@ -1,0 +1,10 @@
+{
+   "ID":"operationRotation",
+   "Name":"Ротация",
+   "Description":"Возможность выбрать нового генерала с полным здоровьем, если на кубике <3 (Ротация невозможна, если генерал в лазарете)",
+   "ImageFolder":"/Data/Images/CardImages/operationRotation.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

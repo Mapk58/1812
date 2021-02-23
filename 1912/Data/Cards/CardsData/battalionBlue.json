@@ -1,0 +1,10 @@
+{
+   "ID":"battalionBlue",
+   "Name":"Синий батальон",
+   "Description":"+2 к выбиванию карт оппонента. +4 дополнительно при наличии синего орудия",
+   "ImageFolder":"/Data/Images/CardImages/battalionBlue.png",
+   "KnockStat":4,
+   "ReplacementStat":3,
+   "MainStat":4,
+   "Type":0
+}

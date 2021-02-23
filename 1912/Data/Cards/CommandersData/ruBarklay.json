@@ -1,0 +1,8 @@
+{
+   "ID":"ruBarklay",
+   "Name":"Барклай-де-Толли",
+   "Description":"Здоровье лагеря восстанавливается на 6 единиц, если на кубике 1",
+   "ImageFolder":"/Data/Images/CommanderImages/ruBarklay.png",
+   "Health":10,
+   "Side":0
+}

@@ -1,0 +1,10 @@
+{
+   "ID":"operationSubstitution",
+   "Name":"Подмена",
+   "Description":"Замените карту со своего планшета на карту такого же типа с планшета оппонента, если на кубике >3 (Подмену невозможно применить, если у вас или у оппонента нет для этого на планшете нужных карт)",
+   "ImageFolder":"/Data/Images/CardImages/operationSubstitution.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

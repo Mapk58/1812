@@ -1,0 +1,10 @@
+{
+   "ID":"operationSabotage",
+   "Name":"Диверсия",
+   "Description":"Возможность забрать любую карту с планшета оппонента, если на кубике >3 (Кроме генерала)",
+   "ImageFolder":"/Data/Images/CardImages/operationSabotage.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

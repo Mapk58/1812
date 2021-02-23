@@ -1,0 +1,10 @@
+{
+   "ID":"operationBackToBattle",
+   "Name":"Снова в бой",
+   "Description":"Генерал возвращается из лазарета, если на кубике <3",
+   "ImageFolder":"/Data/Images/CardImages/operationBackToBattle.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

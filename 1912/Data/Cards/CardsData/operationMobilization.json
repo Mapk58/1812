@@ -1,0 +1,10 @@
+{
+   "ID":"operationMobilization",
+   "Name":"Мобилизация",
+   "Description":"Взять дополнительно 4 карты в конце хода, если на кубике >2",
+   "ImageFolder":"/Data/Images/CardImages/operationMobilization.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

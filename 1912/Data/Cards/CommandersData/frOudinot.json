@@ -1,0 +1,8 @@
+{
+   "ID":"frOudinot",
+   "Name":"Удино",
+   "Description":"Возможность забрать две карты из руки оппонента, если на кубике >4",
+   "ImageFolder":"/Data/Images/CommanderImages/frOudinot.png",
+   "Health":10,
+   "Side":1
+}
