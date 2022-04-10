@@ -1,24 +1,24 @@
-п»їusing System;
+using System;
 using System.Collections.Generic;
 
-namespace _1912.Domain
+namespace _1812.Domain
 {
-    class Deck
+    public class Deck
     {
         private Stack<Card> deckCards;
         private List<Card> throwCards;
         private List<Card> allCards;
         public int DeckCount { get { return deckCards.Count; } }
         public int ThrowCount { get { return throwCards.Count; } }
-        public int allCount { get { return allCards.Count; } }
-        private List<Card> Shuffle(List<Card> toShuffle)
+        public int AllCount { get { return allCards.Count; } }
+        private static List<Card> Shuffle(List<Card> toShuffle)
         {
             List<Card> data = toShuffle;
             for (int i = data.Count - 1; i >= 1; i--)
             {
                 var rand = new Random();
                 int j = rand.Next(i + 1);
-                // РѕР±РјРµРЅСЏС‚СЊ Р·РЅР°С‡РµРЅРёСЏ data[j] Рё data[i]
+                // обменять значения data[j] и data[i]
                 Card temp = data[j];
                 data[j] = data[i];
                 data[i] = temp;
@@ -62,7 +62,7 @@ namespace _1912.Domain
             throwCards.AddRange(toPut);
         }
 
-        public Deck(List<Card> cards)
+        public Deck(List<Card> cards, List<Card> drop)
         {
             deckCards = new Stack<Card>();
             allCards = cards;
@@ -70,11 +70,12 @@ namespace _1912.Domain
             {
                 deckCards.Push(i);
             }
+            throwCards = drop;
         }
 
         public override string ToString()
         {
-            return "РљРѕР»РѕРґР° РёР· "+allCount.ToString()+" РєР°СЂС‚";
+            return "Колода из "+AllCount.ToString()+" карт";
         }
     }
 }

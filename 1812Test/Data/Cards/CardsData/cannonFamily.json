@@ -1,0 +1,10 @@
+{
+   "ID":"cannonFamily",
+   "Name":"Фамильное орудие",
+   "Description":"Здоровье генерала восстанавливается на число, выпавшее на кубике",
+   "ImageFolder":"/Data/Images/CardImages/cannonFamily.png",
+   "KnockStat":4,
+   "ReplacementStat":1,
+   "MainStat":2,
+   "Type":1
+}

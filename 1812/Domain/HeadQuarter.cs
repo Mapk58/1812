@@ -1,11 +1,10 @@
-п»їusing System;
+using System;
 using System.Collections.Generic;
 
-namespace _1912.Domain
+namespace _1812.Domain
 {
-    class HeadQuarter
+    public class HeadQuarter
     {
-
         private List<Commander> russianCommanders;
         private List<Commander> frenchCommanders;
 
@@ -16,7 +15,7 @@ namespace _1912.Domain
             {
                 var rand = new Random();
                 int j = rand.Next(i + 1);
-                // РѕР±РјРµРЅСЏС‚СЊ Р·РЅР°С‡РµРЅРёСЏ data[j] Рё data[i]
+                // обменять значения data[j] и data[i]
                 Commander temp = data[j];
                 data[j] = data[i];
                 data[i] = temp;

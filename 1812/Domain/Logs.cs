@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace _1912.Domain
+namespace _1812.Domain
 {
     class LogManager //debug, info, warn, error
     {

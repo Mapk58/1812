@@ -1,0 +1,10 @@
+{
+   "ID":"operationBlockade",
+   "Name":"Блокада",
+   "Description":"Оппонент лишается двух ходов, если на кубике 1",
+   "ImageFolder":"/Data/Images/CardImages/operationBlockade.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

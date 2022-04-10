@@ -1,0 +1,10 @@
+{
+   "ID":"battalionTactical",
+   "Name":"Тактический батальон",
+   "Description":"Возможность не сбрасывать карту военной операции после активации",
+   "ImageFolder":"/Data/Images/CardImages/battalionTactical.png",
+   "KnockStat":6,
+   "ReplacementStat":0,
+   "MainStat":4,
+   "Type":0
+}

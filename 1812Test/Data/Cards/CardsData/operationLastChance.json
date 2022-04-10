@@ -1,0 +1,10 @@
+{
+   "ID":"operationLastChance",
+   "Name":"Последний шанс",
+   "Description":"Возможность продолжить игру генералом, когда закончилось здоровье лагеря, если на кубике >4 (Активированная карта сбрасывается после попадания генерала в лазарет)",
+   "ImageFolder":"/Data/Images/CardImages/operationLastChance.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

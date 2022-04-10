@@ -1,7 +1,10 @@
-﻿namespace _1912.Domain
+﻿using System.Collections;
+using System;
+
+namespace _1812.Domain
 {
 
-    public class Card
+    public class Card : IComparable
     {
         public string ID { get; }
         public string Name { get; }
@@ -37,7 +40,12 @@
 
         public override string ToString()
         {
-            return Name;
+            return ID;
+        }
+
+        public int CompareTo(object obj)
+        {
+            return ID.CompareTo(obj.ToString());
         }
     }
 }

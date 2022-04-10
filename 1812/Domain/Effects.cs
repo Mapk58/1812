@@ -1,11 +1,11 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 
-namespace _1912.Domain
+namespace _1812.Domain
 {
-    class Effects
+    public class Effects
     {
         public int DiceBonus { get; private set; }
         public int Attack { get; private set; }

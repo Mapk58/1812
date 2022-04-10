@@ -1,0 +1,10 @@
+{
+   "ID":"battalionPurple",
+   "Name":"Фиолетовый батальон",
+   "Description":"+2 к атаке по генералу оппонента",
+   "ImageFolder":"/Data/Images/CardImages/battalionPurple.png",
+   "KnockStat":6,
+   "ReplacementStat":4,
+   "MainStat":5,
+   "Type":0
+}

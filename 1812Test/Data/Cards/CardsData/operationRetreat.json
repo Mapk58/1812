@@ -1,0 +1,10 @@
+{
+   "ID":"operationRetreat",
+   "Name":"Отступление",
+   "Description":"Вас не могут атаковать до следующего вашего хода, если на кубике >3 (После активации возьмите 2 карты из колоды)",
+   "ImageFolder":"/Data/Images/CardImages/operationRetreat.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

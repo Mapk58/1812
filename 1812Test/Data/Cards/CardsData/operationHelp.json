@@ -1,0 +1,10 @@
+{
+   "ID":"operationHelp",
+   "Name":"Подмога",
+   "Description":"+4 к защите от урона на следующую атаку по вашему лагерю или генералу, если на кубике >2",
+   "ImageFolder":"/Data/Images/CardImages/operationHelp.png",
+   "KnockStat":0,
+   "ReplacementStat":0,
+   "MainStat":0,
+   "Type":2
+}

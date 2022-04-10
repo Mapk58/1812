@@ -1,10 +1,10 @@
-﻿using Newtonsoft.Json.Linq;
+using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 using System.IO;
 
-namespace _1912.Domain
+namespace _1812.Domain
 {
-    class Manager
+    public static class Manager
     {
         public static HeadQuarter CreateHQ(string deckType = "classicHQ")
         {
@@ -79,13 +79,13 @@ namespace _1912.Domain
                 }
             }
 
-            Deck toReturn = new Deck(deck);
+            Deck toReturn = new Deck(deck, new List<Card>());
 
             LogManager.Debug("Deck " + toReturn + " was created");
 
             return toReturn;
         }
-        
+
         private static Card CreateCard(string cardName)
         {
             string path = "../../../Data/Cards/CardsData/" + cardName + ".json";
@@ -107,6 +107,22 @@ namespace _1912.Domain
             LogManager.Debug("Card " + toReturn + " was created");
 
             return toReturn;
+        }
+
+        public static Tablet CreateTablet(Commander commander)
+        {
+            return new Tablet(10, 26, null, null, null, commander, new Effects());
+        }
+        public static Game CreateGame()
+        {
+            Deck Deck = Manager.CreateDeck();
+            HeadQuarter HQ = Manager.CreateHQ();
+            List<Card> handOne = Deck.GetCards(6);
+            List<Card> handTwo = Deck.GetCards(6);
+            Player PlayerOne = new Player(Manager.CreateTablet(HQ.PickFR()), handOne);
+            Player PlayerTwo = new Player(Manager.CreateTablet(HQ.PickRU()), handTwo);
+
+            return new Game(PlayerOne, PlayerTwo, Deck, HQ, 0);
         }
     }
 }
