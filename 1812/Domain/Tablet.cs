@@ -36,6 +36,11 @@ namespace _1812.Domain
         }
         public bool SetBattalion(Card toSet)
         {
+            if (battalion is null)
+            {
+                battalion = toSet;
+                return true;
+            }
             if (CampHP - battalion.ReplacementStat > 0)
             {
                 CampHP -= battalion.ReplacementStat;
@@ -50,6 +55,11 @@ namespace _1812.Domain
         }
         public bool SetCannon(Card toSet)
         {
+            if (cannon is null)
+            {
+                cannon = toSet;
+                return true;
+            }
             if (CampHP - cannon.ReplacementStat > 0)
             {
                 CampHP -= cannon.ReplacementStat;
@@ -65,6 +75,11 @@ namespace _1812.Domain
 
         public bool SetOperation(Card toSet)
         {
+            if (operation is null)
+            {
+                operation = toSet;
+                return true;
+            }
             toThrow.Add(operation);
             operation = toSet;
             return true;
@@ -120,7 +135,7 @@ namespace _1812.Domain
             toThrow.AddRange(fromHand);
             return new Tuple<int, List<Card.CardType>>(effects.AttackKnockout + force, target);
         }
-        public bool DefKnockout(Tuple<int, List<Card.CardType>> attack) // решить, где и в каком формате будут передаваться урон и выбиваемые карты
+        public bool DefKnockout(Tuple<int, List<Card.CardType>> attack) // пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         {
             CheckEffects();
             int force = attack.Item1;

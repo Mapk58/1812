@@ -8,8 +8,8 @@ namespace _1812.Domain
     {
         public static HeadQuarter CreateHQ(string deckType = "classicHQ")
         {
-            string path = "../../../Data/Cards/HQData/" + deckType + ".json";
-            string namesPath = "../../../Data/Cards/HQData/commanderNames.json";
+            string path = "./Data/Cards/HQData/" + deckType + ".json";
+            string namesPath = "./Data/Cards/HQData/commanderNames.json";
             string readText = File.ReadAllText(namesPath);
             List<string> commanderNames = JObject.Parse(readText).Value<Newtonsoft.Json.Linq.JArray>("commanderNames").ToObject<List<string>>();
             readText = File.ReadAllText(path);
@@ -44,7 +44,7 @@ namespace _1812.Domain
 
         private static Commander CreateCommander(string CommanderName)
         {
-            string path = "../../../Data/Cards/CommandersData/" + CommanderName + ".json";
+            string path = "./Data/Cards/CommandersData/" + CommanderName + ".json";
             string readText = File.ReadAllText(path);
 
             var o = JObject.Parse(readText).Value<string>("ID");
@@ -63,8 +63,8 @@ namespace _1812.Domain
 
         public static Deck CreateDeck(string deckType = "classicDeck")
         {
-            string path = "../../../Data/Cards/DeckData/" + deckType + ".json";
-            string namesPath = "../../../Data/Cards/DeckData/cardNames.json";
+            string path = "./Data/Cards/DeckData/" + deckType + ".json";
+            string namesPath = "./Data/Cards/DeckData/cardNames.json";
             string readText = File.ReadAllText(namesPath);
             List<string> cardNames = JObject.Parse(readText).Value<Newtonsoft.Json.Linq.JArray>("cardNames").ToObject<List<string>>();
             readText = File.ReadAllText(path);
@@ -88,7 +88,7 @@ namespace _1812.Domain
 
         private static Card CreateCard(string cardName)
         {
-            string path = "../../../Data/Cards/CardsData/" + cardName + ".json";
+            string path = "./Data/Cards/CardsData/" + cardName + ".json";
             string readText = File.ReadAllText(path);
 
             //Card toReturn = JsonConvert.DeserializeObject<Card>(readText);

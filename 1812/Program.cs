@@ -10,7 +10,7 @@ namespace _1812
         static void Main(string[] args)
         {
             Game game = Manager.CreateGame();
-            Console.WriteLine("Hello world!");
+            game.PlayerOne.tablet.SetCannon(Api.ChooseCardsToPlaceOnTablet(game.PlayerOne.hand)[0]);
         }
     }
 }
