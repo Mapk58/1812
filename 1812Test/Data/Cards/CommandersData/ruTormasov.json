@@ -1,8 +1,0 @@
-{
-   "ID":"ruTormasov",
-   "Name":"Тормасов",
-   "Description":"Две попытки для активации военной операции",
-   "ImageFolder":"/Data/Images/CommanderImages/ruTormasov.png",
-   "Health":10,
-   "Side":0
-}

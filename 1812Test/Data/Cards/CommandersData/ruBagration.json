@@ -1,8 +1,0 @@
-{
-   "ID":"ruBagration",
-   "Name":"Багратион",
-   "Description":"Возможность выбить орудие или батальон оппонента в конце хода, если на кубике 6 (Карты орудий не затрачиваются)",
-   "ImageFolder":"/Data/Images/CommanderImages/ruBagration.png",
-   "Health":10,
-   "Side":0
-}

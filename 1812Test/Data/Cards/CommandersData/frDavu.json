@@ -1,8 +1,0 @@
-{
-   "ID":"frDavu",
-   "Name":"Даву",
-   "Description":"Возможность играть двумя орудиями или двумя батальонами. (При попадании генерала в лазарет, дополнительная карта сбрасывается)",
-   "ImageFolder":"/Data/Images/CommanderImages/frDavu.png",
-   "Health":10,
-   "Side":1
-}

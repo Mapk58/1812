@@ -1,8 +1,0 @@
-{
-   "ID":"frMacdonald",
-   "Name":"Макдональд",
-   "Description":"Возможность совершить второй ход, если на кубике 1",
-   "ImageFolder":"/Data/Images/CommanderImages/frMacdonald.png",
-   "Health":10,
-   "Side":1
-}

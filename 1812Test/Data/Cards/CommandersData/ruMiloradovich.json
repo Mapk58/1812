@@ -1,8 +1,0 @@
-{
-   "ID":"ruMiloradovich",
-   "Name":"Милорадович",
-   "Description":"Результат броска кубика удваивается в следующую вашу атаку, если по вашему лагерю или генералу нанесен урон выше 4",
-   "ImageFolder":"/Data/Images/CommanderImages/ruMiloradovich.png",
-   "Health":10,
-   "Side":0
-}

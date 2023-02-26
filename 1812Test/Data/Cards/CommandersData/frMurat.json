@@ -1,8 +1,0 @@
-{
-   "ID":"frMurat",
-   "Name":"Мюрат",
-   "Description":"Штраф за замену карт не действует",
-   "ImageFolder":"/Data/Images/CommanderImages/frMurat.png",
-   "Health":10,
-   "Side":1
-}
